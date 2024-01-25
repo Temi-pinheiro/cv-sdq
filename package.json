@@ -11,7 +11,10 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "next": "14.1.0",
+    "@gsap/react": "^2.0.2",
+    "gsap": "^3.12.4",
+    "locomotive-scroll": "^5.0.0-beta.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
