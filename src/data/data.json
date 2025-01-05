@@ -1,0 +1,168 @@
+{
+  "cases": [
+    {
+      "title": "Sonics",
+      "when": "Jan, 30th, 2024",
+      "whoFor": "Self-project",
+      "type": "Exploration,Branding, Creative Direction, Photography",
+      "industry": "Music, Entertainment, Electronics",
+      "prev": "#FFFFFF",
+      "next": "#1C0900",
+      "header": "",
+      "images": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg"
+      ],
+      "cover": "1.jpg",
+      "basePath": "sonics"
+    },
+    {
+      "title": "FTG",
+      "when": "",
+      "whoFor": "",
+      "type": "",
+      "industry": "",
+      "prev": "#1C0900",
+      "next": "#FFFFFF",
+      "header": "",
+      "images": ["1.png", "2.png", "3.png", "4.png", "5.png"],
+      "cover": "1.png",
+      "basePath": "ftg"
+    },
+    {
+      "title": "Beyond the binary",
+      "when": "",
+      "whoFor": "",
+      "type": "",
+      "industry": "",
+      "header": "",
+      "prev": "#FFFFFF",
+      "next": "#D07298",
+      "images": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png"],
+      "cover": "1.png",
+      "basePath": "beyond"
+    },
+    {
+      "title": "Charity",
+      "when": "",
+      "whoFor": "",
+      "type": "",
+      "industry": "",
+      "header": "",
+      "prev": "#D07298",
+      "next": "#E5B103",
+      "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
+      "cover": "5.jpg",
+      "basePath": "charity"
+    },
+    {
+      "title": "Fragmynt",
+      "when": "",
+      "whoFor": "",
+      "type": "",
+      "industry": "",
+      "prev": "#E5B103",
+      "next": "#AF53A6",
+      "header": "",
+      "images": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+        "7.jpg",
+        "8.jpg"
+      ],
+      "cover": "5.jpg",
+      "basePath": "fragmynt"
+    },
+
+    {
+      "title": "GA",
+      "when": "",
+      "whoFor": "",
+      "type": "",
+      "industry": "",
+      "prev": "#AF53A6",
+      "next": "#ffffff",
+      "header": "",
+      "images": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg"
+      ],
+      "cover": "1.jpg",
+      "basePath": "ga"
+    },
+
+    {
+      "title": "Poprev",
+      "when": "",
+      "whoFor": "",
+      "type": "",
+      "industry": "",
+      "prev": "#ffffff",
+      "next": "#FBB815",
+      "header": "",
+      "images": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png"
+      ],
+      "cover": "3.png",
+      "basePath": "poprev"
+    },
+
+    {
+      "title": "Tassy",
+      "when": "",
+      "whoFor": "",
+      "type": "",
+      "industry": "",
+      "prev": "#FBB815",
+      "next": "#E1117F",
+      "header": "",
+      "images": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg",
+        "11.jpg"
+      ],
+      "cover": "4.jpg",
+      "basePath": "tassy"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Gallery } from '~/components/Gallery';
-import { WorkScroller } from '~/components/WorkScroller';
+import { Scroller } from '~/components/WorkScroller';
 
 export const metadata = {
   title: 'SDQ ADE',
@@ -8,7 +8,7 @@ export const metadata = {
 };
 export default function Home() {
   return (
-    <main className='h-full w-full'>
+    <main id='bg' className='h-full w-full'>
       <div className='h-screen w-full relative'>
         <video
           src='/home.mp4'
@@ -19,9 +19,9 @@ export default function Home() {
           playsInline
           className='object-cover w-full h-full'
         />
-        <div className='absolute inset-0 w-full h-full bg-gradient-to-b from-orange-500/10 to-white/40 backdrop-blur-sm bg-opacity-20 z-[2]'></div>
+        {/* <div className='absolute inset-0 w-full h-full bg-gradient-to-b from-orange-500/10 to-white/40 backdrop-blur-sm bg-opacity-20 z-[2]'></div> */}
       </div>
-      <WorkScroller />
+      <Scroller word='works' key='works' />
       <Gallery />
     </main>
   );

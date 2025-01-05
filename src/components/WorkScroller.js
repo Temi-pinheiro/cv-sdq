@@ -5,7 +5,8 @@ import { League_Gothic } from 'next/font/google';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 const lg = League_Gothic({ subsets: ['latin'] });
-export const WorkScroller = () => {
+export const Scroller = ({ word }) => {
+  let wordArray = new Array(4).fill(word);
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(
     () => {
@@ -13,9 +14,11 @@ export const WorkScroller = () => {
       gsap.set('#bottomscroller', { xPercent: 40 });
       const topScroller = gsap.to('#topscroller', {
         xPercent: 0,
+        // yPercent: -20,
       });
       const bottomScroller = gsap.to('#bottomscroller', {
         xPercent: -30,
+        // yPercent: -30,
       });
 
       ScrollTrigger.create({
@@ -36,27 +39,27 @@ export const WorkScroller = () => {
   return (
     <div
       id='container'
-      className={['bg-white h-full w-full overflow-x-clip', lg.className].join(
-        ' '
-      )}
+      className={[' w-full overflow-clip h-[80%]', lg.className].join(' ')}
     >
       <div
         id='topscroller'
-        className=' flex items-center text-black text-[400px] gap-x-[100px] font-normal font-["League Gothic"] leading-small'
+        className=' flex items-center text-white mix-blend-difference  text-[400px] gap-x-[100px] font-normal font-["League Gothic"] leading-tight '
       >
-        <span>WORK</span>
-        <span>WORK</span>
-        <span>WORK</span>
-        <span>WORK</span>
+        {wordArray.map((word, index) => (
+          <span key={index} className='uppercase'>
+            {word}
+          </span>
+        ))}
       </div>
       <div
         id='bottomscroller'
-        className=' flex items-center text-black text-[400px] gap-x-[100px] font-normal font-["League Gothic"] -mt-48'
+        className=' flex items-center text-white mix-blend-difference text-[400px] gap-x-[100px] font-normal font-["League Gothic"] leading-tight '
       >
-        <span>WORK</span>
-        <span>WORK</span>
-        <span>WORK</span>
-        <span>WORK</span>
+        {wordArray.map((word, index) => (
+          <span key={index} className='uppercase'>
+            {word}
+          </span>
+        ))}
       </div>
     </div>
   );

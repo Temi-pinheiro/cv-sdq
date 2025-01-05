@@ -1,0 +1,9 @@
+.background {
+  background: rgba(52, 64, 84, 0.8);
+  backdrop-filter: blur(10px);
+
+  inset: 0;
+  z-index: 100;
+
+  @apply fixed w-full h-full;
+}
